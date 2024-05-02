@@ -4,4 +4,11 @@
 
 local keymap = vim.keymap
 
+-- jk for exiting insert mode
 keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
+
+-- tmux navigate
+keymap.set("n", "<C-j>", ":TmuxNavigateDown<CR>", { silent = true })
+keymap.set("n", "<C-k>", ":TmuxNavigateUp<CR>", { silent = true })
+keymap.set("n", "<C-h>", ":TmuxNavigateLeft<CR>", { silent = true })
+keymap.set("n", "<C-l>", ":TmuxNavigateRight<CR>", { silent = true })
