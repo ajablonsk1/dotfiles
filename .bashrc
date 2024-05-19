@@ -1,15 +1,17 @@
 # .bashrc
 
-# Aliases 
+# Aliases
 alias python=python3
 alias pip=pip3
 alias vim=nvim
 alias v=nvim
 alias t=tmux
 
+alias hl="cd ~/repos/homelab"
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
-    . /etc/bashrc
+	. /etc/bashrc
 fi
 
 # Start starship
