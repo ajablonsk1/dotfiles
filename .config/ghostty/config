@@ -1,0 +1,9 @@
+font-family = "JetBrains Mono"
+font-size = 17
+
+theme = rose-pine
+palette = 2=#31748f
+palette = 10=#31748f
+palette = 4=#9ccfd8
+palette = 12=#9ccfd8
+selection-background = #403d52
